@@ -1,0 +1,65 @@
+nav {
+  color: white;
+  background-color: rgba(161, 8, 8, 0.719);
+  width: 20%;
+  position: fixed;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+}
+
+nav h1,
+nav h3 {
+  padding: 0;
+  margin-left: 2vw;
+  margin-bottom: 0;
+}
+
+.FancyButton {
+  background-color: rgba(0, 0, 0, 0);
+  width: 80%;
+  display: flex;
+  border-width: 0;
+  cursor: pointer;
+  margin: auto;
+  margin-left: 2vw;
+  padding-left: 0;
+  transition: margin 200ms ease-in-out;
+}
+
+.FancyButton img {
+  width: 5vh;
+  height: 5vh;
+  margin: auto;
+  transition: filter 0.2s ease-in-out;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(352deg)
+    brightness(112%) contrast(103%);
+}
+
+/* 
+filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+brightness(95%) contrast(80%); */
+
+.FancyButton h2 {
+  color: white;
+  width: 30%;
+  text-align: left;
+  margin: auto;
+  margin-left: 0;
+  padding-left: 0;
+  transition: color 0.2s ease-in-out;
+}
+
+.FancyButton:hover h2 {
+  color: rgb(204, 104, 22);
+}
+
+.FancyButton:hover img {
+  filter: invert(44%) sepia(69%) saturate(787%) hue-rotate(351deg)
+    brightness(91%) contrast(91%);
+}
+
+.FancyButton:hover {
+  margin-left: 15%;
+}
