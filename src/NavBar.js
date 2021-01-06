@@ -3,7 +3,7 @@ import "./css/NavBar.css";
 import FancyButton from "./FancyButton";
 import person from "./media/person.png";
 import skills from "./media/skills.png";
-import proyects from "./media/proyects.png";
+import projects from "./media/projects.png";
 import contact from "./media/contact.png";
 
 function NavBar({ refs }) {
@@ -13,7 +13,7 @@ function NavBar({ refs }) {
       <h3>FullStack Software Engineer</h3>
       <FancyButton name="Info" img={person} reference={refs.Info} />
       <FancyButton name="Skills" img={skills} reference={refs.Skills} />
-      <FancyButton name="Proyects" img={proyects} reference={refs.Proyects} />
+      <FancyButton name="Projects" img={projects} reference={refs.Projects} />
       <FancyButton name="Contact" img={contact} reference={refs.Contact} />
     </nav>
   );

@@ -2,16 +2,19 @@ import React, { useRef } from "react";
 import "./App.css";
 import NavBar from "./NavBar.js";
 import Info from "./Info.js";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import Skills from "./Skills";
 
 function App() {
   const info = useRef();
   const skills = useRef();
-  const proyects = useRef();
+  const projects = useRef();
   const contact = useRef();
   const refs = {
     Info: info,
     Skills: skills,
-    Proyects: proyects,
+    Projects: projects,
     Contact: contact,
   };
 
@@ -22,9 +25,15 @@ function App() {
         <li ref={info}>
           <Info />
         </li>
-        <li ref={skills}>Skills</li>
-        <li ref={proyects}>Proyects</li>
-        <li ref={contact}>Contact</li>
+        <li ref={skills}>
+          <Skills />
+        </li>
+        <li ref={projects}>
+          <Projects />
+        </li>
+        <li ref={contact}>
+          <Contact />
+        </li>
       </ul>
     </div>
   );
