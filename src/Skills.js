@@ -62,10 +62,6 @@ function Skills() {
       img: "",
     },
     {
-      name: "Haskell",
-      img: "",
-    },
-    {
       name: "MySQL",
       img: "",
     },
@@ -73,15 +69,11 @@ function Skills() {
       name: "MongoDB",
       img: "",
     },
-    {
-      name: "Git",
-      img: "",
-    },
   ];
   return (
     <div>
-      <h1>About what can I do</h1>
-      <h2>Technologies</h2>
+      <h1 className="Tittle">About what can I do</h1>
+      <h2>Some technologies I work with</h2>
       <ul className="Techs">
         {techs.map((tech) => (
           <li>
@@ -90,14 +82,14 @@ function Skills() {
         ))}
       </ul>
       <h2>Capabilities</h2>
-      <ul className="Skills">
+      {/* <ul className="Skills">
         {otherSkills.map((skill) => (
           <li>
             <a>{skill.name + ": "}</a>
             <a>{skill.description}</a>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 }

@@ -34,7 +34,7 @@ function Contact() {
   const mediaList = [cellphone, instagram, linkedin, github, email];
   return (
     <div>
-      <h1>Feel free to find to me!</h1>
+      <h1 className="Tittle">Feel free to find me!</h1>
       <ul className="MediaList">
         {mediaList.map((media) => (
           <li>
