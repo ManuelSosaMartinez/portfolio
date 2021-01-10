@@ -14,7 +14,7 @@ import moreImage from "./media/moreImg.png";
 function Projects() {
   const [header, setHeader] = useState({
     tittle: "Select a Project",
-    description: <h3>"This is my list of proyects"</h3>,
+    description: <h3>"This is my list of projects"</h3>,
     link: "",
     linkText: "",
     icon: projectIcon,

@@ -6,15 +6,26 @@
   padding-left: 0;
 }
 
+h1 {
+  color: #e94560;
+}
+
 .Projects div {
-  background-color: rgba(238, 75, 75, 0.493);
+  background-color: #16213e;
   margin: auto;
   margin-bottom: 1vh;
   padding: 1vh;
-  border-radius: 1vh;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
+  border: 0.5vh solid transparent;
   cursor: pointer;
+  transition: background-color 200ms ease-in-out;
+  font-weight: bold;
+}
+
+.Projects div:hover {
+  background-color: #0f3460;
 }
 
 .Projects div img {
@@ -26,23 +37,26 @@
 }
 
 .Header {
-  /* border-radius: 1vh;
-  border-width: 0.5vh;
-  border-style: solid;
-  border-color: black; */
   padding: 2vh;
   text-align: center;
+  margin-top: 10vh;
 }
 
 .Header h1 {
+  color: rgb(209, 203, 203);
   margin: auto;
+  margin-bottom: 3vh;
   font-size: 5vh;
+}
+
+.Header h3 {
+  font-weight: normal;
 }
 
 .Header .Image {
   width: 50vw;
   height: 50vh;
-  border-radius: 3vh;
+  border-radius: 5px;
   margin: auto;
 }
 
@@ -53,7 +67,7 @@
 }
 
 .Header div a {
-  background-color: rgba(0, 0, 0, 0.493);
+  background-color: #0f3460;
   border-radius: 5px;
   padding: 1vh;
 

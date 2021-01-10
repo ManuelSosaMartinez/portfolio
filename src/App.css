@@ -1,3 +1,21 @@
+/* Source Code Pro */
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+/* Source Sans Pro */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+/* Roboto Mono */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.App {
+  /* font-family: "Roboto Mono", monospace; */
+  font-family: "Montserrat", sans-serif;
+  /* font-family: "Source Code Pro", monospace; */
+  /* font-family: "Source Sans Pro", sans-serif; */
+}
 .Content {
   margin-top: 0;
   margin-bottom: 0;
@@ -35,4 +53,55 @@
   margin-bottom: 0;
   padding-top: 0;
   margin-top: 0;
+}
+
+.Info {
+  display: flex;
+  flex-direction: row;
+}
+
+.Info img {
+  width: 40vw;
+  height: 30vw;
+}
+
+.Info h1 {
+  font-size: calc(30px + 4vw);
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Info h4 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: calc(13px + 1vw);
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.Info h3 {
+  font-weight: normal;
+  margin-top: 4vh;
+}
+
+.btn {
+  background-color: #0f3460;
+  color: rgb(209, 203, 203);
+  border: 2px solid transparent;
+  border-radius: 10px;
+  width: 50%;
+  height: 8vh;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-family: inherit;
+  font-size: large;
+  font-weight: bold;
+  transition: border-color 300ms;
+  cursor: pointer;
+  /* clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 50%); */
+}
+
+.btn:hover {
+  border-color: white;
 }

@@ -26,7 +26,7 @@ function Contact() {
     img: "",
   };
   const email = {
-    data: "ManuelSosaMartinez99@gmail.com",
+    data: "mi mail",
     description: "e-mail",
     link: "",
     img: "",
