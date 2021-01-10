@@ -26,12 +26,15 @@ function App() {
           <Info />
         </li>
         <li ref={skills}>
+          <h1 className="Tittle">What can I do</h1>
           <Skills />
         </li>
         <li ref={projects}>
+          <h1 className="Tittle">What I'm working on</h1>
           <Projects />
         </li>
         <li ref={contact}>
+          <h1 className="Tittle">Feel free to find me!</h1>
           <Contact />
         </li>
       </ul>

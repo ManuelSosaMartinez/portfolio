@@ -1,0 +1,35 @@
+.MediaList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.MediaList > li {
+  display: flex;
+  align-items: center;
+  min-width: 10vh;
+  background-color: transparent;
+  flex-direction: column;
+  margin: 1vh;
+  border-radius: 5px;
+}
+
+.MediaList img {
+  width: 15vh;
+  height: 15vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+.MediaList img:hover {
+  filter: invert(50%) sepia(57%) saturate(7449%) hue-rotate(330deg)
+    brightness(101%) contrast(83%);
+}
+
+.MoreInfo p {
+  color: #e94560;
+  overflow-x: scroll;
+}

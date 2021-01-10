@@ -115,7 +115,6 @@ function Projects() {
 
   return (
     <div>
-      <h1 className="Tittle">About what I'm working on</h1>
       <div ref={headerRef} className="Header">
         <Transition in={inProp} out={inProp} timeout={duration}>
           {(state) => (

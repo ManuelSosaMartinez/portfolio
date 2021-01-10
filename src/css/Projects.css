@@ -6,10 +6,6 @@
   padding-left: 0;
 }
 
-h1 {
-  color: #e94560;
-}
-
 .Projects div {
   background-color: #16213e;
   margin: auto;
@@ -21,6 +17,7 @@ h1 {
   border: 0.5vh solid transparent;
   cursor: pointer;
   transition: background-color 200ms ease-in-out;
+  -webkit-transition: background-color 200ms ease-in-out;
   font-weight: bold;
 }
 

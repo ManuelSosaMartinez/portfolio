@@ -18,6 +18,7 @@ nav h3 {
 
 nav h1 {
   font-size: 4vh;
+  color: #e94560;
 }
 
 nav h3 {
@@ -33,11 +34,12 @@ nav h3 {
   cursor: pointer;
   margin: auto;
   margin-left: 2vw;
-  padding-left: 0;
+  padding: 0;
   transition: margin 200ms ease-in-out;
+  -webkit-transition: margin 200ms ease-in-out;
 }
 .CloseButton {
-  background-color: rgba(161, 8, 8, 0.719);
+  background-color: #16213eab;
   border-radius: 25%;
   padding: 1.5vh;
   margin-left: 50%;
@@ -50,9 +52,9 @@ nav h3 {
   width: 5vh;
   height: 5vh;
   margin: auto;
-  transition: filter 0.2s ease;
-  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(352deg)
-    brightness(112%) contrast(103%);
+  margin-left: 0;
+  transition: filter 0.1s ease-in-out;
+  -webkit-transition: filter 0.1s ease-in-out;
 }
 
 /* 
@@ -67,16 +69,17 @@ brightness(95%) contrast(80%); */
   margin: auto;
   margin-left: 0;
   padding-left: 0;
-  transition: color 0.2s ease-in-out;
+  transition: color 0.1s ease-in-out;
+  -webkit-transition: color 0.1s ease-in-out;
 }
 
 .FancyButton:hover h2 {
-  color: #3282b8;
+  color: #e94560;
 }
 
 .FancyButton:hover img {
-  filter: invert(44%) sepia(27%) saturate(1182%) hue-rotate(161deg)
-    brightness(97%) contrast(88%);
+  filter: invert(50%) sepia(57%) saturate(7449%) hue-rotate(330deg)
+    brightness(101%) contrast(83%);
 }
 
 .FancyButton:hover {

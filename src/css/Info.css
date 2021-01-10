@@ -1,0 +1,30 @@
+.Info {
+  display: flex;
+  flex-direction: row;
+}
+
+.Info img {
+  width: 40vw;
+  height: 30vw;
+}
+
+.Info h1 {
+  font-size: calc(30px + 4vw);
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #e94560;
+}
+
+.Info h4 {
+  font-style: italic;
+  font-weight: normal;
+  font-size: calc(13px + 1vw);
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.Info h3 {
+  font-weight: normal;
+  margin-top: 4vh;
+}

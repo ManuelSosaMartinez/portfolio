@@ -1,6 +1,7 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 import me from "./media/me2.png";
+import "./css/Info.css";
 
 function Info() {
   const isMobile = useMediaQuery({ query: `(max-width: 760px)` });

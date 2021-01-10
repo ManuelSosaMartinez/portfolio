@@ -10,8 +10,8 @@ function FancyButton({ name, img, reference }) {
 
   return (
     <button className="FancyButton" onClick={() => scrollToRef(reference)}>
-      <h2>{name}</h2>
       <img src={img} alt="" />
+      <h2>{name}</h2>
     </button>
   );
 }
