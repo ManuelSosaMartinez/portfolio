@@ -63,6 +63,7 @@ ul {
 .btn {
   background-color: #0f3460;
   color: rgb(209, 203, 203);
+  padding: 0;
   border: 2px solid transparent;
   border-radius: 10px;
   width: 50%;

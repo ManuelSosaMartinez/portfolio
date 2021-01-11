@@ -65,9 +65,14 @@
 
 .Header div a {
   background-color: #0f3460;
+  font-weight: bold;
   border-radius: 5px;
   padding: 1vh;
-
   text-decoration: none;
   color: white;
+  transition: color 200ms ease-in-out;
+}
+
+.Header div a:hover {
+  color: #e94560;
 }
