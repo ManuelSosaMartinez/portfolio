@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.846f55d7.chunk.css",
+    "main.js": "/portfolio/static/js/main.799cdbe0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.799cdbe0.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.a433b352.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a433b352.js.map",
+    "static/js/2.d3fcb0f4.chunk.js": "/portfolio/static/js/2.d3fcb0f4.chunk.js",
+    "static/js/2.d3fcb0f4.chunk.js.map": "/portfolio/static/js/2.d3fcb0f4.chunk.js.map",
+    "static/js/3.5af73f49.chunk.js": "/portfolio/static/js/3.5af73f49.chunk.js",
+    "static/js/3.5af73f49.chunk.js.map": "/portfolio/static/js/3.5af73f49.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.846f55d7.chunk.css.map": "/portfolio/static/css/main.846f55d7.chunk.css.map",
+    "static/js/2.d3fcb0f4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d3fcb0f4.chunk.js.LICENSE.txt",
+    "static/media/C.7eff22ec.png": "/portfolio/static/media/C.7eff22ec.png",
+    "static/media/CSS3.b67a002d.png": "/portfolio/static/media/CSS3.b67a002d.png",
+    "static/media/Instagram.708dec77.png": "/portfolio/static/media/Instagram.708dec77.png",
+    "static/media/Java.9088e28f.png": "/portfolio/static/media/Java.9088e28f.png",
+    "static/media/Mail.b6e010dd.png": "/portfolio/static/media/Mail.b6e010dd.png",
+    "static/media/MySQL.596b4ab1.png": "/portfolio/static/media/MySQL.596b4ab1.png",
+    "static/media/React.83bf9144.png": "/portfolio/static/media/React.83bf9144.png",
+    "static/media/contact.0ef507ef.png": "/portfolio/static/media/contact.0ef507ef.png",
+    "static/media/graph.7e8ebb97.png": "/portfolio/static/media/graph.7e8ebb97.png",
+    "static/media/graphImage.effda9de.png": "/portfolio/static/media/graphImage.effda9de.png",
+    "static/media/me2.38447e6f.png": "/portfolio/static/media/me2.38447e6f.png",
+    "static/media/moreImg.00a7d1e3.png": "/portfolio/static/media/moreImg.00a7d1e3.png",
+    "static/media/person.53e4a7df.png": "/portfolio/static/media/person.53e4a7df.png",
+    "static/media/portfolioImage.bed2b795.png": "/portfolio/static/media/portfolioImage.bed2b795.png",
+    "static/media/projects.e942d8d0.png": "/portfolio/static/media/projects.e942d8d0.png",
+    "static/media/rightArrow.a7d4a014.png": "/portfolio/static/media/rightArrow.a7d4a014.png",
+    "static/media/skills.38747848.png": "/portfolio/static/media/skills.38747848.png",
+    "static/media/svIcon.fe31b4da.png": "/portfolio/static/media/svIcon.fe31b4da.png",
+    "static/media/svImage.0bc5e48c.png": "/portfolio/static/media/svImage.0bc5e48c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a433b352.js",
+    "static/js/2.d3fcb0f4.chunk.js",
+    "static/css/main.846f55d7.chunk.css",
+    "static/js/main.799cdbe0.chunk.js"
+  ]
+}
