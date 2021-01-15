@@ -4,7 +4,7 @@ function FancyButton({ name, img, reference }) {
   const scrollToRef = (ref) => {
     ref.current.scrollIntoView({
       behavior: "smooth",
-      block: "start",
+      block: "center",
     });
   };
 

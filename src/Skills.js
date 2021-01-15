@@ -37,7 +37,7 @@ function Skills() {
     {
       name: "Design",
       description:
-        "Be it layouts or be it software hierarchies, I'm usually end up finding perfect designs.",
+        "Layouts or software hierarchies, I usually end up finding perfect designs.",
     },
   ];
   const techs = [
@@ -111,7 +111,7 @@ function Skills() {
         "I'm able to understand and design a wide variety of software structures",
     },
     {
-      name: "Functional/Declarative Programming",
+      name: "Declarative Programming",
       description:
         "A different programming approach; It's something I consider useful to know",
     },
@@ -165,7 +165,7 @@ function Skills() {
 
   const allLists = [
     { listName: "Technologies", component: techList },
-    { listName: "Knowledges", component: knowList },
+    { listName: "Knowledge", component: knowList },
     { listName: "Strengths", component: strList },
   ];
 

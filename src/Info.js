@@ -1,13 +1,14 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
-import me from "./media/me2.png";
+import me from "./media/me.png";
 import "./css/Info.css";
+import cv from "./media/CV.pdf";
 
 function Info() {
   const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
 
   function download() {
-    console.log("hola");
+    window.open(cv);
   }
 
   const downloadCV = (
@@ -21,7 +22,7 @@ function Info() {
         <h4>Hello there! I'm </h4>
         <h1>Manuel Sosa</h1>
         <h3>
-          A 21 years old non-binary software engineer and student, currently in
+          A 21 year old non-binary software developer and student, currently in
           the 4th year of my career in Computer Science. Be it academically or
           work-related, my goal is to keep on learning. Let's talk!
         </h3>

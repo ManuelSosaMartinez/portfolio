@@ -38,7 +38,7 @@ function NavBar({ refs }) {
             {inProp || !isMobile ? (
               <nav>
                 <h1>Manuel Sosa</h1>
-                <h3>FullStack Software Engineer</h3>
+                <h3>FullStack Software Developer</h3>
                 <FancyButton name="Info" img={person} reference={refs.Info} />
                 <FancyButton
                   name="Skills"

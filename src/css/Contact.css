@@ -1,10 +1,12 @@
 .MediaList {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  align-content: center;
   flex-wrap: wrap;
   margin-top: 5vw;
-  margin-bottom: 5vw;
+  margin-bottom: 3vw;
+  color: #e94560;
+  font-size: 90%;
 }
 
 .MediaList > li {
@@ -15,11 +17,12 @@
   flex-direction: column;
   margin: 1vh;
   border-radius: 5px;
+  margin-bottom: 5vh;
 }
 
 .MediaList img {
-  width: 15vh;
-  height: 15vh;
+  width: 10vh;
+  height: 10vh;
   margin-left: 2vh;
   margin-right: 2vh;
 }
@@ -27,9 +30,4 @@
 .MediaList img:hover {
   filter: invert(50%) sepia(57%) saturate(7449%) hue-rotate(330deg)
     brightness(101%) contrast(83%);
-}
-
-.MoreInfo p {
-  color: #e94560;
-  overflow-x: scroll;
 }

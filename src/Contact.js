@@ -1,9 +1,8 @@
 import React from "react";
 import "./css/Contact.css";
-import GithubIcon from "./media/GitHub.png";
+
 import LinkedinIcon from "./media/Linkedin.png";
 import PhoneIcon from "./media/Phone.png";
-import InstagramIcon from "./media/Instagram.png";
 import MailIcon from "./media/Mail.png";
 
 function Contact() {
@@ -20,25 +19,13 @@ function Contact() {
     img: MailIcon,
   };
   const linkedin = {
-    data: "",
+    data: "www.linkedin.com/in/manu-sm",
     description: "linkedin",
-    link: "https://www.linkedin.com/in/manuel-sosa-094673166",
+    link: "www.linkedin.com/in/manu-sm",
     img: LinkedinIcon,
   };
-  const github = {
-    data: "",
-    description: "Github",
-    link: "https://github.com/ManuelSosaMartinez",
-    img: GithubIcon,
-  };
-  const instagram = {
-    data: "_manu.sm",
-    description: "Instagram",
-    link: "https://www.instagram.com/_manu.sm/",
-    img: InstagramIcon,
-  };
 
-  const mediaList = [cellphone, email, linkedin, github, instagram];
+  const mediaList = [cellphone, email, linkedin];
 
   return (
     <div>
@@ -48,13 +35,10 @@ function Contact() {
             <a target="_blank" href={media.link}>
               <img src={media.img} />
             </a>
+            {media.data}
           </li>
         ))}
       </ul>
-      <div className="MoreInfo">
-        <p>E-Mail: {email.data}</p>
-        <p>Cellphone: {cellphone.data}</p>
-      </div>
     </div>
   );
 }

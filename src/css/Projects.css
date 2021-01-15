@@ -7,7 +7,7 @@
 }
 
 .Projects div {
-  background-color: #16213e;
+  background-color: #0f3460;
   margin: auto;
   margin-bottom: 1vh;
   padding: 1vh;
@@ -16,13 +16,13 @@
   flex-direction: column;
   border: 0.5vh solid transparent;
   cursor: pointer;
-  transition: background-color 200ms ease-in-out;
-  -webkit-transition: background-color 200ms ease-in-out;
+  transition: border-color 200ms ease-in-out;
+  -webkit-transition: border-color 200ms ease-in-out;
   font-weight: bold;
 }
 
 .Projects div:hover {
-  background-color: #0f3460;
+  border-color: white;
 }
 
 .Projects div img {
@@ -67,12 +67,13 @@
   background-color: #0f3460;
   font-weight: bold;
   border-radius: 5px;
-  padding: 1vh;
+  border: 2px solid transparent;
+  padding: 2vh;
   text-decoration: none;
   color: white;
-  transition: color 200ms ease-in-out;
+  transition: border-color 200ms ease-in-out;
 }
 
 .Header div a:hover {
-  color: #e94560;
+  border-color: white;
 }
